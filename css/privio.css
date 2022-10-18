@@ -1,0 +1,389 @@
+.body1{
+    background-color: #272944;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    
+}
+.contenedor1{
+    display: flex;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+
+    
+}
+.header1{
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    display: flex;
+
+}
+.arriba1{
+    width: 100%;
+    height: 30%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.izquierda1{
+ width: 50%;
+ height: 100%;
+
+ display: flex;
+ flex-direction: row;
+}
+.menu1{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+}
+.menu1 p{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 300%;
+}
+.logo1 {
+    width: 60%;
+    height: 300%;
+   
+    display: flex;
+    flex-direction: row;
+}
+.logo1 img{
+    width: 50%;
+    height: 100%;
+}
+.derecha1{
+    width: 20%;
+ height: 100%;
+ display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+
+}
+
+.abajo1{
+    width: 100%;
+    height: 20%;
+    font-size: 200%; 
+
+}
+/* seccion de las peliculas  */
+.contenedor2-1{
+    display: flex;
+    flex-grow: 1/2;
+   
+    column-gap: 2%;
+    row-gap: 2%;
+    flex-wrap:wrap;
+    overflow-y: scroll;
+    justify-content: end;
+}
+.contenedoir-peliculas2-1{
+   flex-basis: 18rem;
+    flex-grow: 1;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedoir-peliculas2-1 img{
+ width: 100%;
+ height: 70%;
+}
+
+a
+.contenedoir-peliculas2-1  a{
+    text-decoration: none;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+/* 2 search */
+/*  */
+/*  */
+/*  */
+/*  */
+.body2{
+    background-color: #21183c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    
+}
+.contenedor2{
+    display: flex;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column ;
+
+    
+}
+.header2{
+    width: 100%;
+    height: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    display: flex;
+
+}
+.arriba2{
+    width: 100%;
+    height: 30%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.izquierda2{
+ width: 50%;
+ height: 100%;
+
+ display: flex;
+ flex-direction: row;
+}
+.menu2{
+  width: 20%;
+  height: 100%;
+ 
+  display: flex;
+  justify-content: center;
+}
+.menu2 img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-;
+}
+.logo2{
+    width: 80%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+}
+.logo2 img{
+    width: 50%;
+    height: 100%;
+}
+.derecha2{
+    width: 20%;
+ height: 100%;
+ display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+
+}
+
+.abajo2{
+    width: 100%;
+    height: 30%;
+    font-size: 90%; 
+   
+}
+.mas-abajo2{
+    width: 100%;
+    height: 30%;
+   
+   display: flex;
+
+}
+.buscador2{
+   width: 100%;
+   height: 100%;
+  
+  color: #3f336B;
+   margin: 1px;
+   display: flex;
+   flex-direction: column;
+
+}
+.buscador2 div{
+ width: 50%;
+ height: 50%;
+
+ display: flex;
+ flex-direction: row;
+}
+
+.hora2{
+    width: 50%;
+    height: 100%;
+   
+    margin: 1px;
+    display: flex;
+}
+.hora2 div {
+    width: 50%;
+    height: 100%;
+   
+  color:  #3f336B;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+/* seccion de las peliculas  */
+.contenedor2-2{
+    display: flex;
+    flex-grow: 1;
+    background-color: #21183c;
+    column-gap: 2%;
+    row-gap: 2%;
+    flex-wrap:wrap;
+    overflow-y: scroll;
+}
+.contenedor-peli2{
+    width: 30%;
+    height: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.foto-peli2{
+   height: 70%;
+   width: 100%;
+   background-color: rgb(20, 180, 33);
+}
+.foto-peli2 img{
+    width: 100%;
+    height: 100%;
+}
+.info-peli2{
+    height: 30%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    
+}
+/* trailer */
+/*  */
+/*  */
+.body3{
+    background-color: #21183c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #BB8FCE;
+    
+}
+.contenedor3{
+    display: flex;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column ; 
+  
+}
+.header3{
+   width: 100%;
+   height: 50%;
+   
+   display: flex;
+   justify-content: center;
+   
+}
+.contenedor3-video{
+    width: 100%;
+    height: 100%;
+   
+}
+.contenedor3 video{
+    width: 100%;
+    height: 100%;
+}
+.main3{
+ flex-grow: 1;
+ 
+}
+#primero3{
+    width: 100%;
+    height: 30%;
+    
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 60%;
+}
+#primero3{
+    font-size: 50%;
+}
+#segundo3{
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    flex-direction: row;
+}
+#segundo3 div{
+    margin: 12px;
+}
+#tercero3{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: row;
+}
+#tercero3 p{
+    font-size: 100%;
+    
+}
+#cuarto3{
+    width: 100%;
+    height: 20%;
+    ;
+    display: flex;
+    flex-direction: row;
+align-items: flex-end;
+    justify-content: center;
+
+}
+#cuarto3 div{
+    width: 50%;
+    height: 50%;
+    border: 2px solid #BB8FCE;
+    border-radius: 12px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,519 @@
+body{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #272944;
+
+
+}
+
+main{
+
+    height: calc(100vh  );
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: row;
+
+}
+ 
+.aside{
+    displey:flex;
+    align-items: center;
+    background-color: #F9F9FA;
+    width: 15rem;
+    flex-direction: column; 
+    margin: 20px;
+    justify-content: center;
+   
+}
+
+.perfil{
+    background-color: #FFFF;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 20rem;
+   margin: 4rem;
+    
+}
+
+
+.section{
+    display: flex;
+    background-color: blue;
+    width: 1200px;
+    margin: 20px 0px;
+    flex-direction: column;
+   
+}
+.cuadros{
+    height: 2rem;
+    width: 6rem;
+    background-color: #F9F9FA;
+    margin-left: 60px;
+   
+    display: flex;
+    flex-direction:column;
+  
+    
+    
+}
+
+.contenedor{
+    height: 2rem;
+    width: 6rem;
+    background-color: f9f9fa;
+    margin: 0.1rem;
+    display: flex;
+    flex-direction:row;
+   
+    
+}
+
+.cuadritos{
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color:#272944;
+    margin: 0.1rem ;
+    
+     
+}
+
+.letra{
+    height: 1.5rem;
+    width: 6rem;
+    background-color: #F9F9FA;
+    margin: 0.1rem ;
+    float: left;
+}
+
+
+
+.header{
+    display: flex;
+    height: 15rem;
+    background-color: rgb(218, 203, 203);
+    display: flex;
+    flex-direction: column;
+}
+
+.hijo1{
+    height: calc(15rem/3);
+    background-color:#ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+     background-color: #F9F9FA;
+     width: 45%;
+     height: 45%;
+     display: flex;
+    
+}
+.cuadros2{
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(65, 22, 185);
+    
+   
+    display: flex;
+    flex-direction:column;
+    
+  
+    
+    
+}
+
+.contenedor2{
+    height: 2.3rem;
+    width: 6rem;
+    background-color: #F9F9FA;
+   
+    display: flex;
+    flex-direction:row;
+   
+    
+}
+
+.cuadritos2{
+    height: 2rem;
+    width: 3rem;
+    background-color:#272944;
+    margin: 0.1rem ;
+    
+     
+}
+.chiquito{
+    height: 1.5rem;
+    width: 3rem;
+    background-color:#272944;
+    margin: 0.1rem ;
+}
+
+.letra2{
+    height: 2rem;
+    width: 6rem;
+    background-color: #F9F9FA;
+    margin: 0.1rem ;
+    float: left;
+}
+
+.en{
+    background-color: #F9F9FA;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.cuadros3{
+    height: 2rem;
+    width: 10rem;
+    background-color: #F9F9FA;
+    display: flex;
+    align-items: flex-end;
+    
+   
+    display: flex;
+    flex-direction:column;
+    
+  
+    
+    
+}
+
+.contenedor3{
+    height: 2.3rem;
+    width: 10rem;
+    background-color:#F9F9FA;
+   
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+   
+    
+}
+
+.cuadritos3{
+    height: 2rem;
+    width: 3rem;
+    background-color:#272944;
+    margin: 0.1rem ;
+    
+    
+    
+     
+}
+
+.letra3{
+    height: 2rem;
+    width: 6rem;
+    background-color: #F9F9FA;
+    margin: 0.1rem ;
+    
+}
+
+.hijo2{
+    height: calc(15rem/3);
+    background-color:#FFFF;
+}
+
+.hijo3{
+    height: calc(15rem/3);
+    background-color:#FFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.contenumeros{
+    background-color: #F9F9FA;
+    width: 10rem;
+    height: 4rem;
+    margin: 0.5rem ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cuadhijo3{
+    background-color:#272944 ;
+    width: 3rem;
+    height: 2rem;
+}
+.contegranNumero{
+    background-color:#F9F9FA;
+    width: 6rem;
+    height: 4rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#numeros{
+    background-color:#F9F9FA;
+    width: 6rem;
+    height: 1.8rem;
+    margin: auto;
+    
+}
+
+#letras{
+    background-color:#F9F9FA;
+    width: 6rem;
+    height: 2rem;
+    margin: auto;
+    font-size: 12px;
+}
+
+.article{
+    background-color: aqua;
+    height: 23rem;
+    display: flex;
+    
+}
+.aside2{
+    background-color: #FFFF;
+    width: 18rem;
+
+}
+
+.new-customers{
+    background-color:#FFFF;
+    height: 6rem;
+    width: 18rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+   
+}
+.new{
+height:calc(6rem/3) ;
+background-color: #F9F9FA;
+}
+.numero_new{
+    height:calc(6rem/3) ;
+    background-color: #F9F9FA;
+    font-size:30px ;
+}
+.per-day{
+    height:calc(6rem/3) ;
+    background-color: #F9F9FA;
+    text-align:center;
+}
+.categories{
+    background-color: #F9F9FA;
+    height: 14rem;
+    width: 18rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.categories-on-top{
+    height: calc(14rem/11);
+    width:18rem;
+    background-color:#F9F9FA;
+    
+}
+.category{
+    height: calc(14rem/11);
+    width:18rem;
+    background-color: #F9F9FA;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+   
+}
+.category div{
+    width: 8.6rem;
+    height: 100%;
+    background-color:#D8D3D1;
+}
+
+.hijo_design{
+    height: calc(14rem/10);
+    width:18rem;
+    background-color:#F9F9FA;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.hijo_design div{
+    width: 8.5rem;
+    height: 100%;
+    background-color: #F9F9FA;
+    font-size:15px;
+}
+.lado{
+    text-align:end;
+}
+
+.aside3{
+    background-color: #F9F9FA;
+    height: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction:column;
+
+}
+
+.header-aside3{
+    background-color:#F9F9FA ;
+    width: 50rem;
+    height: 10.5rem;
+    display: flex;
+    flex-direction: column;
+       
+}
+.visitor{
+    background-color:#F9F9FA ;
+    width: 47rem;
+    height: 2rem;
+    margin: 1rem 23px 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.grande{
+    background-color:#D8D3D1 ;
+    flex-grow: 1;
+    margin: 0rem 23px 1rem;
+    
+}
+
+.main-aside3{
+    background-color: ;
+    width: 50rem;
+    height: 10.5rem; 
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.latest-posts{
+    margin: 0.1rem;
+    background-color:#F9F9FA;
+
+   height: 2rem;
+   display: flex;
+   flex-direction: row;
+   
+    
+}
+.main-scroll{
+    background-color: black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+.izquierda{
+    background-color: #F9F9FA;
+    width: 16rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenedor-izquieda-de-contenedores{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    
+
+}
+.contenedor-izquierda{
+    background-color: #F9F9FA;
+    width: 100%;
+     height:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.2rem 0px 1px ;
+
+}
+.contenedor-izquierda div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#cuadro_izquierda{
+    background-color:#D8D3D1;
+    width: 3rem;
+    height: 2rem;
+}
+
+
+.medio{
+    background-color: #F9F9FA;
+    width: 18rem;
+    
+
+}
+.contenedor-medio-de-contenedores{
+    background-color: #F9F9FA;
+    width: 18rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.contenedor-medio{
+    width: 17rem;
+    height: 2rem;
+    background-color: #F9F9FA;
+    margin: 0.2rem 0px 1px ;
+    font-size: 14px;
+    
+    
+}
+#teso{
+    font-size:20px ;
+    margin: 2px;
+}
+
+.derecha{
+    background-color: #F9F9FA;
+    width: 15rem;
+   
+}
+
+.contenedor-derecha-de-contenedores{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contenedor-derecha{
+    width:14.2rem ;
+    height: 2rem;
+    background-color:#F9F9FA;
+    margin: 0.2rem 0px 1px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cuadrito-derecha{
+    width: 3.2rem;
+    height: 1.7rem;
+    background-color:#D8D3D1;
+    border: 2px solid #272944;
+    
+}
+
